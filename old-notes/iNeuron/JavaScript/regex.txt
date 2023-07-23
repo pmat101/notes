@@ -1,0 +1,23 @@
+To check if a word is present in a string	/word/.test(string)
+
+Use OR inside regex to match multiple patterns	/dog|cat|fish/
+
+Use 'i' flag to ignore case sensitivity		/word/i
+
+To extract a word from a string		string.match(/word/)
+
+Use global flag to extract word more than once	/word/g
+
+You can use multiple flags in a regex		/word/gi
+
+Use a wildcard to match misspelled words	/w.rd/
+
+To match a class of characters			/b[aiu]g/
+
+Use hyphen '-' to define a range		/[a-z]/
+
+Use '^' to negate a character set		/[^0-9]/
+
+'+' to match one or more, '*' to match zero or more characters
+
+Use '?' to do lazy matching

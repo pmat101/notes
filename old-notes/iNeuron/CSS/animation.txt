@@ -1,0 +1,24 @@
+2D Transformation - translate (move), rotate, scale, skew (change shape), matrix (combine all)
+
+
+3D Transformation- rotate X/Y/Z
+
+
+Transition property allows us to change property value smoothly over a given duration (required)
+
+eg. div{width: 100px; transition: width 2s;
+    div:hover{width: 300px}
+
+timing function eg. ease-in, ease-out, linear etc.
+
+
+@keyframes example {
+	from
+	to
+}
+element {
+	animation-name: example;
+	animation-duration: 4s;
+}
+
+keyframes can also go from 0 to 100%

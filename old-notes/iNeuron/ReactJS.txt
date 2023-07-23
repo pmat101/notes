@@ -1,0 +1,38 @@
+1)  For official docs go to reactjs.org
+
+2)  'create-react-app' is a utility that sets up a basic react application, it contains:
+	i)  node_modules (all packages that react requires)
+	ii)  .gitignore (what not to push to GitHub)
+	iii) package.json (directory of all node module packages)
+	iv) README.md (basic readme file)
+	v) src (all react components go into this folder)
+	vi) public (contains files availabe to user ie. public)
+
+3)  'npm start' will get your react appgoing, use 'npm run build' to deploy to production
+
+4)  'npm install' downloads all reqirements in node_modules folder according to package.json
+
+5)  In JSX only a single parent element can be returned
+
+6)  React uses Babel to compile JSX to HTML and Webpack which automatically allows us to import any CSS files etc
+
+7)  Single page apps require req/res cycle only once. As soon as browser receives HTML+CSS+JS the JS takes over and handles HTML n CSS without any reload required
+
+8)  When importing a component we can send values as prop(ertie)s
+	- We can use 'proptypes' to check data type of prop
+	- We can set default props for if no values get imported (alternatively we can use 'required' keyword)
+
+9)  We can't assign variables in React, we use State management to do that
+	"const [variable, function] = useState('default value')"
+
+10)  "npm install react-router-dom" in your project folder
+
+11)  import 'Switch' from above package to hop between components without refreshing the page (use -exact path-)
+
+12)  import 'Link' and use it instead of <a> shuffle between components
+
+
+
+
+*
+  e.preventDefault and e.target.value are examples of handeling events

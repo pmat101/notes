@@ -1,0 +1,144 @@
+	() => paranthesis, [] => square brackets, {} => curly braces
+
+	Node is a JS engine that runs it outside the browser.
+
+	Data types-	(use longer variable names)
+		primitive types -	number, string, boolean
+		non-primitive -	arrays, objects
+
+	As soon as the scope is over a 'let' variable is removed from memory
+
+	"alert" pops a message to the user, "prompt" takes input from the user and "confirm" takes a boolean value.
+
+	Template Literal- new way of output =>	console.log(` HELLO MY NAME IS: ${variable} `)
+
+	Function library =>	typeOf, parseInt, Math (round/ceil/floor/min/max/random/abs/sqrt/pow)
+
+	Array methods-
+	-	length
+	-	push (add value at the end of array)
+	-	slice (grab specific part of array)
+	-	splice (add-delete values in original array)
+	-	concat (combine multiple arrays in new array)
+	-	includes (check if given value present at given index)
+	-	indexOf
+	-	reverse
+	-	shift (remove 0th value of array)
+	-	unshift (add value at start of array)	// not preferred as every item has to be shifted and increases time complexity
+	-	sort
+	-	toString (output array as string)
+	-	split (convert string to array)
+	-	pop, from, every, fill, filter
+
+	Types of loops-
+	-	for
+	-	while
+	-	do-while
+	-	forOf (iterate without any condition)
+	-	forIn (iterate through an object)
+	-	forEach (loop a function over an array)
+	-	map (loop function over array and modify its values)
+
+	Ternary operator =>	"condition ? if-statement : else-statement"
+
+	Falsy values => undefined, null, 0, '', NaN
+
+	'break' and 'continue' are used to come out of a scope
+
+
+	Global Context (window object in browser) & Execution context (method being called) have features like =>
+
+		Variable Object
+		-	scan function declarations and make them available
+		-	scan variable declarations and make them undefined
+			~ so if a function is defined inside a variable it can't be called before being declared ~
+
+		Scope Chain -	variables declared inside a scope can be accessed only inside the scope
+
+		'this' keyword -	points to the global (window) object for all function calls except when the function is an object value
+
+
+	Use paranthesis when 'calling' a function, don't if 'referencing' it
+
+	Use (...args) if number of parameters is unknown
+
+	"DOM represents the page so that the program can change the document structre, style  and content"
+
+	select DOM elements - getElementsBy[ClassName/Id/TagName] (returns an array containing all element properties), querySelector (returns first element that matches), querySelectorAll (returns array of matches)
+
+	DOM manipulation works on - methods, sub-object and properties
+
+	setTimeout, setInterval are used to make regular changes to the DOM
+
+	'window.getComputedStyle()' is used to grab all the styles applied to an element whereas 'style()' is used to implement styles to an element
+
+	Common DOM methods - setAttribute, classList.add, textContent, appendChild, removeChild..
+
+	'addEventListener(event_name, function)' is used to respond to any activity
+
+	'new' keyword is responsible for invoking the constructor and creating a unique instance
+
+	When a function takes a function as argument (function calling function) it is known as 'Call Back function'
+
+	Higher Order Functions:-	callback function, setInterval, setTimeout, forEach, map, filter, reduce
+
+	Destructuring is a way to assign array items to individual variables
+	eg. let [a, , c, ...] = array_name;
+
+	A way of destructuring array and passing its values is called Spread, whereas passing multiple values and storing them in an array is called Rest
+
+	Set() is used to store unique items of an array
+	Map() holds key-value pairs where the keys can be of any data type
+
+	When inner function access values of outer function it's known as Closure
+
+	Types of errors-
+	-	Syntax error (if code is not written according to language rules)
+	-	Reference error
+	-	Type error
+
+	Error handeling-
+	-	try() is used to hold a block of code which may give error
+	-	catch() is used to handle the error thrown by try block
+	-	finally() block is executed no matter what
+	-	throw()
+
+	JavaScript is a single threaded (events happen one by one) and synchronous (events happen in a sequence) programming language
+
+
+__________________________________________________________________________________
+
+
+
+				HARRY (all practice sets n exercises remain)
+
+	1	JS can be executed in 3 ways: browser console, runtime env (Node.js) and HTML <script> tag
+
+	2	JS is dynamically typed language ie. variable type can be changed during runtime
+
+	3	'var' is globally scoped while 'let' n 'const' are locally scoped
+		'var' can be updated and re-declared within its scope, 'let' can be updated but not re-declared but 'const' can neither be updated nor re-declared
+		'const' must be initialised during declaration unlike 'let' and 'var'
+
+	9	for(key in object_name)	-	loop through an object
+		for(variable of iterable)	-	loop through array or string
+
+	12	Object.keys(object_name).length	-	get number of keys in an object
+
+	14	String methods: length, toUpperCase, toLowerCase, slice, replace, concat, trim, includes, startsWith, endsWith, parseInt
+		Strings are immutable and cannot be changed
+		"Properties" work without parameters, "methods" can take parameters and work accordingly
+
+	17	Array methods:	toString, join, pop, push, shift, unshift, delete, concat, sort (works alphabetically, use with a compare function to sort numbers), reverse, slice, splice	[some modify original array, some don't]
+
+	19	array_name.forEach (variable)	-	calls a function for each array element
+		Array.from (variable)	-	convert a string / HTML collection to an array
+
+	20	Higher Order Functions:
+			map()	-	works through an array and creates a new array
+			filter()	-	selects items from an array and create new array with those values
+			reduce()	-	works through an array and returns a value
+
+	25	Console methods:	log, error, assert, clear, table, warn, info, time
+
+	28	'window' object -->>	DOM (HTML page is treated as an object named document), BOM (additional objects provided by host browser), core JS

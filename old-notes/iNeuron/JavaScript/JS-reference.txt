@@ -1,0 +1,70 @@
+Data Types
+JavaScript has dynamic types. This means that the same variable can be used to hold different data types. There are 8 basic data types in JavaScript – Number, Null, BigInt, Boolean, String, Symbol, Undefined and Object.
+
+Conditionals
+Comparison operators – { ==, ===, !=, !==, >, <, >=, <= }
+Ternary Operator – { variable_name = (condition) ? value1:value2 }
+If-Else Statement - 	if (condition)
+//  block of code to be executed if the condition is true
+else
+//  block of code to be executed if the condition is false
+Switch Statement -	switch(expression) {
+case x:
+// code block
+break;
+case y:
+// code block
+break;
+default:
+// code block
+}
+
+Math Methods
+round (returns nearest integer), ceil (value rounded up), floor (value rounded down), pow (x to the power of y), sqrt (returns the square root), abs (returns the ‘positive’ value), min, max (find the lowest or highest value in a list of arguments), random (returns a random number between 0 and 1)
+
+Array Methods
+toString (converts array to a ‘comma separated’ string), join (just like toString but you can specify the separator), pop (removes last element from array), push (add new element at the end of array), shift (removes first array element), unshift (add new element at the beginning of array), concat (create new array by merging existing arrays), splice (add items at any position of array), slice (remove a piece of array), sort (sorts array alphabetically; use compare function inside to sort numbers), reverse (sorts array in descending order)
+
+Loops
+•	for - loops through a block of code a fixed number of times
+•	for/in - loops through the properties of an object
+•	forEach() – calls a function once for each array element
+•	for/of - loops through the values of any iterable entity (object, array, string etc)
+•	while - loops through a block of code as long as specified condition is true
+•	do/while – a variant of while loop, will execute once before checking if condition is true
+
+Functions	*this, window object, method, constructor
+A block of code that is executed when invoked, any value it returns can be stored in a variable
+Function parameters can have default values in case no arguments are passed, Rest parameter (…args) can be used to treat indefinite arguments
+Arrow functions make the function declaration syntax shorter
+
+Date
+new Date()    creates a date object with the current date and time
+Date methods: getFullYear, getMonth, getDate, getDay, getHours, getMinutes, getSeconds, getMilliseconds, use set methods to change date and time
+
+Objects
+Just like real life objects have properties and perform functions, JavaScript objects have properties and functions (functions in objects are stored as key-values and called Methods)
+
+Higher Order Functions
+A function which takes another function as argument or returns a function is known as a higher order function
+Callback - A function passed as an argument to another function
+setInterval() - calls a function at specified intervals
+setTimeout() - calls a function after a number of milliseconds
+
+Document Object Model
+The DOM is a model where the HTML elements are treated as a tree of Objects
+The document object represents the entire webpage, it is used to access/alter the HTML elements
+Finding HTML elements – By Id, querySelector (return single value), TagName, ClassName, querySelectorAll (return an array of values)
+Changing HTML content – innertext, innerHTML, attribute_name, style.property_name
+DOM Event examples – onclick, onload, onfocus, onmouseover, onmoseout
+addEventListener() allows multiple event listeners if the need arises
+
+
+VAR				LET					CONST
+
+Has Global Scope, even
+if declared inside parenthesis	Scope Local to declaration location	Scope Local to declaration location
+
+Can be redeclared		Cannot be redeclared			Cannot be redeclared
+
+Can be reassigned		Can be reassigned			Cannot be reassigned

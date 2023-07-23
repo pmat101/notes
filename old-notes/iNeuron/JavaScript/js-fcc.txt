@@ -1,0 +1,38 @@
+Data Types in JS:	undefined, null, boolean, string, symbol, bigint, number, and object
+
+Variables not assigned any value are declared as 'undefined'
+
+Variables declared using 'var' automatically assigned global scope, which is bad. for eg. if you want to re-run a function
+
+Variables with the same name can only be declared once using 'let'
+
+Variables declared using 'const' are read-only
+
+*	push():	append item to the end of array
+*	pop():	remove last element of array and return it
+*	shift():	remove first element of array
+*	unshift():	add item at the beginning of array
+
+To call or invoke a function write its name followed by paranthesis
+
+If a function doesn't have a return statement, the returned value is undefined
+
+Functions can have default parameters if no arguments are given
+
+Use bracket notation and quotes when object property names have spaces in them, or stored in a variable
+
+*	'delete' : remove a property from an object
+*	hasOwnProperty() : check if a property exists or not
+
+Other methods - Math, parseInt, Object.freeze, concat..
+
+
+	ES6+
+
+'Rest parameter' is a way for functions to accept unknown number of parameters: (...args)
+
+'Spread operator' is used to unpack an array into multiple parameters
+
+'Destructuring' is used to assign array/object elements to individual variables	(let [a,b,...arr] = [3,5,7,9] or const {name: x,age: y} = obj_name)
+
+'Template literals' are used to display text as is	(`My name is ${name}`)

@@ -1,0 +1,25 @@
+FLEX CONTAINER (PARENT)
+
+	(i) display: flex	=> initialise layout
+
+	(ii) flex-direction	=> set main axis
+
+	(iii) flex-wrap		=> wrap content in multiple lines
+
+	(v) justify-content	=> spread items along main axis
+
+	(vi) align-items	=> spread items along cross axis
+
+	(vi) align-content	=> spread wrapped rows along cross axis
+
+
+FLEX ITEM (CHILD)
+
+	(i) order		=> specify when item appears
+
+	(ii) flex: 1 1 0	=> flex properties- grow, shrink, basis
+
+	(vi) align-self		=> align single item along cross axis
+
+
+Use Grid only if container spans multiple lines or items overlap each other.

@@ -1,0 +1,9 @@
+(i) 'static' - default positioning, elements stacked on top of each other
+
+(ii) 'relative' - top/right/bottom/left properties can be applied (relative to itself) but it leaves gap in original location
+
+(iii) 'absolute' - top/right/bottom/left properties can be applied (relative to body or closest parent which is relative), doesn't leave gap in original location as removed from document flow
+
+(iv) 'fixed' - top/right/bottom/left properties can be applied (relative to browser window)
+
+(v) 'sticky' - top/right/bottom/left properties can be applied (relative to parent), get stuck to the viewport when scrolled

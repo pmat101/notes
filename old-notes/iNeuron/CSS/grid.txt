@@ -1,0 +1,25 @@
+GRID CONTAINER (PARENT) =>
+
+	(i) display: grid/inline-grid	=> initialise layout
+
+	(ii) grid-template-columns	=> set number of columns and their widths	(use 'repeat' or 'grid-auto-columns' as required)
+
+	(iii) grid-template-rows	=> set height of respective rows
+
+	(iv) justify-content		=> spread items horizontally
+
+	(v) align-content		=> spread items vertically
+
+	(vi) gap			=> add margins to grid items
+
+
+GRID ITEM (CHILD) =>
+
+	(i) grid-(row/column)-(start/end)	=> specify where to place item
+	
+	(ii) order				=> specify when to place item
+
+
+
+
+		// give names to grid-areas and arrange them in 'grid-template-area' property to easily align items visually
