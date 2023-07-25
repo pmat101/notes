@@ -18,8 +18,3 @@ Change default branch from <master> to <main>:
 08.	<git log>	-	check output
 09.	<git branch -M *branch_name*>	-	create a new branch
 10.	<git push>	-	upload local commits to GitHub
-
-
-GitHub personal token (valid forever)	-	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
-
-GitHub personal token (valid till Dec)	-	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
