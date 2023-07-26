@@ -1,0 +1,40 @@
+# VERSION CONTROL
+
+1. Our operating system does version controlling for us when we *undo* or *redo* stuff in our files.
+2. 
+
+---
+
+
+
+
+ELEMENT          MARKDOWN SYNTAX
+
+new paragraph    separate them with an empty line
+new line         two blank spaces after previous line
+Heading	         # H1 to ###### H6, keep adding # symbol
+Bold	         **bold text**
+Italic	         *italicized text*
+Strikethrough	 ~~The world is flat~~
+Highlight        ==very important words==
+Subscript	     H~2~O
+Superscript	     X^2^
+Code	         `code`, use three backticks ``` followed by name of language for multiple lines of code with syntax highlighting
+Link	         [title](https://www.example.com)
+Image	         ![alt text](image.jpg)
+Blockquote	     > blockquote, use multiple angle brackets >> to nest quotes
+Horizontal rule  ---
+Ordered List	 1. First item
+                 2. Second item
+                 3. Third item
+Unordered List	 - First item
+                 - Second item
+                 - Third item	(use indentation to nest list items)
+Table            | Header 1 | Header 2 |
+                 | -------- | -------- |	(use colon : at the ends of divider to change alignment)
+                 | This     | is       |
+                 | an       | example  |
+                 | of       | table    |
+Checkbox         - [ ] unchecked item, - [x] checked item
+
+		 //	syntax highlighting, superscript, subscript and emojis are not supported by GitHub, use HTML syntax instead
