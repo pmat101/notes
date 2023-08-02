@@ -9,3 +9,4 @@
 - Project reviews => complete requirement sets, write project report, documentation, include good practices, swagger, Postman collection
 - MAANG companies have infra already built, they just want it optimised. Therefore they require SDE with DSA knowledge. Startups on the other hand require full-stack developers
 - Learn to sell yourself and your work
+- Use design tools like Canva, Figma or AdobeXD to make development less time consuming, use Pexels to grab stock images, Colorzilla to pick colours and UIColorpicker to mix-match colours
