@@ -5,3 +5,7 @@ GitHub is a hosting service for our GIT repositories.
 GitHub also allows multiple users to contribute and collaborate to a repository or project.
 
 A Repository is just a folder that's being watched over y GIT
+
+## Life-Cycle of Changes
+Working directory -> {git add} -> Staging area -> {git commit} -> Committed repository
+* Every file committed has a commit ID
