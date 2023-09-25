@@ -10,3 +10,15 @@
 - MAANG companies have infra already built, they just want it optimised. Therefore they require SDE with DSA knowledge. Startups on the other hand require full-stack developers
 - Learn to sell yourself and your work
 - Use design tools like Canva, Figma or AdobeXD to make development less time consuming, use Pexels to grab stock images, Colorzilla to pick colours and UIColorpicker to mix-match colours
+
+
+
+
+**26/09/23**
+
+- exercise, pray, eat healthy, dopamine detox, 3ltr water, skin care, share progress
+- Live class: 1-7 (handwritten notes + blog)
+- recorded course: HTML, CSS, GIT
+
+
+*The Bhagavad Gita teaches that we are here to fulfill our Dharma. It is the path of righteousness (different for each individual) and it's our duty to find and follow our Dharma [you don't need motivation for that, just descipline and consistancy]*
