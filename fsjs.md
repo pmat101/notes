@@ -3,3 +3,24 @@
 - Use **event.key** to get the value of _keypress_ event
 
 - To select **pseudo elements** like _::before / ::after_ in JavaScript target a CSS selector (eg document.styleSheets[0].cssRules[2]) instead of a tag selector
+
+- common terminal commands	-	mkdir, touch/echo, cd, ls/ls -l/ls -la
+
+
+- Configuring git:
+	git config --global user.name "Your Name"
+	git config --global user.email "yourname@example.com"
+
+- Change default branch from <master> to <main>:
+	git config --global init.defaultBranch main
+
+01.	Create new repository on GitHb
+02.	<git clone>	-	clone a repository to your computer
+03.	<git remote -v>	-	see URL of git repository
+04.	<git init>	-	initialise directory as a git repository
+05.	<git status>	-	see if files are staged
+06.	<git add .>	-	add all files in current directory to staging area
+07.	<git commit -m *initial commit*>	-	commit changes with a message
+08.	<git log>	-	check output
+09.	<git branch -M *branch_name*>	-	create a new branch
+10.	<git push>	-	upload local commits to GitHub
