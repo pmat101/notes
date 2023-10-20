@@ -23,3 +23,8 @@
    - Performance (Big O Notation)
    - Performance (using Xcode instruments)
    - Try out some helpful tools: Git, Figma, Bitrise, Proxyman
+
+## Journey of Building an App
+   - Never go with a completely brand new app idea as it's too risky take an already existing app and do it differently
+   - Focus on a small idea, that's bug free and has good UX which results in a polished app with good reviews
+   - Make multiple app and launch quickly, do get too attached to an app or idea
