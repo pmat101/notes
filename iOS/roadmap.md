@@ -1,9 +1,12 @@
 ## Mindset Strategy
 - Have realistic expectations
+- practice daily, even if you find it easy
+- find a community or support group
 - The first 20 hours are most important, don't give up
 - Set 2 goals, a long term goal (reason for doing everything) and multiple short term goals (to keep you motivated)
 
 ## Skills Required
+   >   Swift, SwiftUI, data flow (state/binding/env obj/combined framework), view composition, Human interface guidelines
    ### Level 1
    - How to use Xcode
    - How to write Swift code
@@ -23,6 +26,17 @@
    - Performance (Big O Notation)
    - Performance (using Xcode instruments)
    - Try out some helpful tools: Git, Figma, Bitrise, Proxyman
+
+## Skills to crack interviews
+- Source control (Git)
+- iOS Concurrency (multi-threaded programming)
+- Swift: ability to read code (practice with open source projects)
+- Design patterns (singleton, factory, strategy, observer, builder)
+- Algorithms (sorting, BigO etc)
+- navigate/debug XCode
+- computer networks (http, asynchronous, APIs, JSON)
+- SwiftUI, UIkit
+- database (any)
 
 ## Journey of Building an App
 - Never go with a completely brand new app idea as it's too risky take an already existing app and do it differently
