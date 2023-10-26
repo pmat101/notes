@@ -43,3 +43,4 @@
 - Focus on a small idea, that's bug free and has good UX which results in a polished app with good reviews
 - Make multiple app and launch quickly, do get too attached to an app or idea
 - Optionally you can add gamification, reminders, encouragement, social interaction, data and insights to your app
+- Target low competetion organic keywords related to your app for SEO (refer ASO tools- appfollow and mobileAction- keyword tracking)
