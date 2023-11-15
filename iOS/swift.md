@@ -31,8 +31,11 @@ to add a new key-value pair type *dictionary_name[key] = value*
 to change any value- *dictionary_name[key] = new_value* or using .updateValue method
 to remove a key-value pair, set it to *nil* or use *.removeValue* method, to empty the dictionary use *.removeAll* method
 *.isEmpty* and *.count* methods work on all- arrays, sets, dictionaries
-there are two ways of getting a value inside a dictionary- 
-**if let var_name = dict_name[key]** or
-**var var_name = dict_name[key]!** if we're sure the value exists
-to loop through a dictionary- *for (keyHolder, valueHolder) in dict_name { // body }*
+there are two ways of getting an **optional** value from a dictionary- 
+*if let var_name = dict_name[key] { // runs if optional value is not nil }* or
+*var var_name = dict_name[key]**!*** if we're sure the value exists
+    scope of if-let variable is only inside its block
+to loop through a dictionary we use a **Tuple**-  *for (keyHolder, valueHolder) in dict_name { // body }*
+a Tuple can be assigned to a variable where its individual values can be accessed using dot notation
 use *.keys* and *.values* methods to get a list of key/values of dictionary
+Function definition:  **func functionName() -> returnType { }**
