@@ -1,20 +1,29 @@
-open XCode Playground to practice Swift language
-to output anything to the console use **print()** statement
-common data types in Swift - *string*, *int*, *double*, *bool* and *array*
-variable declaration- **var name:datatype = value**;  (type declaration lets compiler know how much memory to set aside for the variable) variables can't be reassigned value of a different type
-type inference makes compiler automatically deduce the data type of expression, we don't need to explicitly mention it
-a constant, declared using *let* keyword cannot be reassigned any value
-String Interpolation- "I am \(var_age) years old"
-function declaration- **func name( param:datatype ) -> datatype{ return value }**
-functions can pass arguments using variable names, labels or just values
-**Int.random(in: start...end)** method is used to generate a random number
-**...** is known as a Closed Range Operator ie first and last units are included, eg. 1985...1997
-Switch statements can have multiple values in a case separated by comma
-Use **where** keyword to check condition against given variable in a switch statement
-FOR-IN loop iterates a variable over a range/string/array
-use *stride()* function in a for-in loop to change how it iterates
-use underscore: __ in a for-in loop if variable is not required
-arrays only store data of the same type
+## Hello World
+- open XCode Playground to practice Swift language
+- to output anything to the console use **print()** statement
+- common data types in Swift - *string*, *int*, *double*, *bool* and *array*
+
+## Variables
+- variable declaration → `var name:datatype = value`  (type declaration lets compiler know how much memory to set aside for the variable) variables can't be reassigned value of a different type
+- type inference makes compiler automatically deduce the data type of expression, we don't need to explicitly mention it
+- a constant, declared using **let** keyword cannot be reassigned any value
+- String Interpolation → `"I am \(var_age) years old"`
+
+## Conditionals & Logic
+- function declaration → `func name( param:datatype ) -> datatype{ return value }`
+- functions can pass arguments using variable names, labels or just values
+- `Int.random(in: start...end)` method is used to generate a random number
+> `...` is known as a Closed Range Operator ie first and last units are included, eg. 1985...1997
+- Switch statements can have multiple values in a case separated by comma
+- use **where** keyword to check condition against given variable in a switch statement
+
+## Loops
+- FOR-IN loop iterates a variable over a range/string/array
+- use **stride()** function in a for-in loop to change how it iterates
+- use underscore `__` in a for-in loop if variable is not required
+
+## Arrays & Sets
+- arrays only store data of the same type
 array initialization- var array_name = [type]() or var array_name:[type] = [val1, val2, val3]
 *array_name.count* gives us the length of an array
 to add a single item to an array use **.append()** method, to add multiple items do arr_name += [val1, val2..]
