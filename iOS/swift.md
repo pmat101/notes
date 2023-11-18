@@ -50,16 +50,22 @@
 > scope of if-let variable is only inside its block
 - to loop through a dictionary we use a **Tuple** → `for (keyHolder, valueHolder) in dict_name { // body }`
 - a Tuple can be assigned to a variable where its individual values can be accessed using dot notation
-use *.keys* and *.values* methods to get a list of key/values of dictionary
-Function definition:  **func functionName() -> returnType { }**
-functions can have *argument labels* which can be used when calling the function, if argument label is replaced with an underscore only argument value needs to be provided
-a function can return multiple values via an array- for same value types or tuple- for multiple value types and accessed using dot notation
-using *implicit return* we can omit the return keyword if the function has only one expression
-functions can have *default parameters* so it won't be mandatory to pass arguments when calling it
-functions can also accept a *variadic parameter* which can be interpreted as an array in the function block, eg. **func func_name (param_name: param_type...) {}**
-an *inout* parameter has the power to change the value of the original arguments. Add an '&' symbol before the argument value when calling the function
-Structures are blueprints which contain properties and methods- *struct **N**ame { }*
-we can create instances of structures and assign them to variables;  var var_name = struct_name()
-we can access/assign property values of these instances using dot notation
-Methods are functions, specific to an instance or type
-**init()** method is used to customise an instance of a struct, it doesn't need a func keyword and uses *self* (similar to 'this') keyword to refer itself
+- use *.keys* and *.values* methods to get a list of keys/values of dictionary
+
+## Functions
+- Function definition → `func functionName() -> returnType { }`
+- functions can have **argument labels** which can be used when calling the function, if argument label is replaced with an underscore only argument value needs to be provided
+- a function can return multiple values via an array (for same value types) or tuple (for multiple value types) and accessed using dot notation
+- using **implicit return** we can omit the return keyword if the function has only one expression
+- functions can have **default parameters** so it won't be mandatory to pass arguments when calling it
+- functions can also accept a **variadic parameter** which can be interpreted as an array in the function block, eg. `func func_name (param_name: param_type...) {}`
+- an **inout** parameter has the power to change the value of the original arguments. Add an '&' symbol before the argument value when calling the function
+
+## Structures
+- Structures are blueprints which contain properties and methods → *struct **N**ame { }*
+- we can create instances of structures and assign them to variables → `var var_name = struct_name()`
+- we can access/assign property values of these instances using dot notation
+- Methods are functions, specific to an instance or type
+- **init()** method is used to customise an instance of a struct, it doesn't need a func keyword and uses *self* (similar to 'this') keyword to refer itself
+
+## Classes
