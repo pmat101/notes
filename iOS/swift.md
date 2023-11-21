@@ -1,3 +1,6 @@
+> to get more details on a keyword, select it + press command + click on it --> it will open the docs
+
+
 ## Hello World
 - open XCode Playground to practice Swift language
 - to output anything to the console use **print()** statement
@@ -8,12 +11,19 @@
 - type inference makes compiler automatically deduce the data type of expression, we don't need to explicitly mention it
 - a constant, declared using **let** keyword cannot be reassigned any value
 - String Interpolation → `"I am \(var_age) years old"`
+- *.remove(at: )*, *.removeFirst*, *.removeLast* methods can be used to remove specific characters from a String
+- **.split(separator: )** is used to break a String into an array
 
 ## Conditionals & Logic
 - `Int.random(in: start...end)` method is used to generate a random number
 > `...` is known as a Closed Range Operator ie first and last units are included, eg. 1985...1997
+> `..<` known as the half-open range operator excludes the final value
 - Switch statements can have multiple values in a case separated by comma
 - use **where** keyword to check condition against given variable in a switch statement
+- when working with input values which can be nil, make them **optional** so they don't crash your app
+  - var var_name: data_type**?**    // Optional declaration
+  - var_name**!**    // forced unwrapping (not recommended)
+  - // optional binding
 
 ## Loops
 - FOR-IN loop iterates a variable over a range/string/array
@@ -31,7 +41,7 @@
 - a **set** is similar to an array except they're unordered and only contain unique elements
 - sets can be initialised as → `var set_name = Set<type>()` or `var set_name: Set = [val1, val2..]`
 - use **insert(item)** to add element to a set, *.count*, *.isEmpty* methods to check number of items in a set and *.remove(value)* or *removeAll* to delete an item or everything from the set
-- *.contains* checks if a given value is present in a set or not
+- *.contains()* checks if a given value is present in a set/range/string or not
 - *set1.intersection(set2)* creates a new set using common values between both, while *.union* combines both sets (or more) into one set with unique elements
 - *.symmetricDifference* method can be used to find elements exclusive to both sets
 - *.subtracting* method take values only present in set 1 and removes values common in both sets
@@ -41,7 +51,7 @@
 - to add a new key-value pair type `dictionary_name[key] = value`
 - to change any value → `dictionary_name[key] = new_value` or using *.updateValue* method
 - to remove a key-value pair, set it to *nil* or use *.removeValue* method, to empty the dictionary use *.removeAll* method
-- *.isEmpty* and *.count* methods work on all- arrays, sets, dictionaries
+- *.isEmpty* and *.count* methods work on all- Strings, arrays, sets, dictionaries
 - there are two ways of getting an **optional** value from a dictionary →
   - `if let var_name = dict_name[key] { // runs if optional value is not nil }` or
   - `var var_name = dict_name[key]**!**` // if we're sure the value exists
@@ -60,11 +70,11 @@
 - functions can also accept a **variadic parameter** which can be interpreted as an array in the function block, eg. `func func_name (param_name: param_type...) {}`
 - an **inout** parameter has the power to change the value of the original arguments. Add an '&' symbol before the argument value when calling the function
 
-~## Structures~
+## ~Structures~
 - Structures are blueprints which contain properties and methods → *struct **N**ame { }*
 - we can create instances of structures and assign them to variables → `var var_name = struct_name()`
 - we can access/assign property values of these instances using dot notation
 - Methods are functions, specific to an instance or type
 - **init()** method is used to customise an instance of a struct, it doesn't need a func keyword and uses *self* (similar to 'this') keyword to refer itself
 
-~## Classes~
+## ~Classes~
