@@ -1,5 +1,4 @@
-> to get more details on a keyword, select it + press command + click on it --> it will open the docs
-
+> ### to get more details on a keyword, select it + press command + click on it. It'll open up the docs in a small dialogue box
 
 ## Hello World
 - open XCode Playground to practice Swift language
@@ -16,8 +15,8 @@
 
 ## Conditionals & Logic
 - `Int.random(in: start...end)` method is used to generate a random number
-> `...` is known as a Closed Range Operator ie first and last units are included, eg. 1985...1997
-> `..<` known as the half-open range operator excludes the final value
+> `...` is known as a Closed Range Operator ie first and last units are included, eg. 1985...1997  
+  `..<` known as the half-open range operator excludes the final value
 - Switch statements can have multiple values in a case separated by comma
 - use **where** keyword to check condition against given variable in a switch statement
 - when working with input values which can be nil, make them **optional** so they don't crash your app
