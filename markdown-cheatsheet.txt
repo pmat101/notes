@@ -15,9 +15,9 @@ Strikethrough	 ~~The world is flat~~
 
 Highlight        ==very important words==
 
-Subscript	     H~2~O
+Subscript	 H~2~O
 
-Superscript	     X^2^
+Superscript	 X^2^
 
 Code	         `code`, use three backticks ``` followed by name of language for multiple lines of code with syntax highlighting
 
@@ -25,7 +25,7 @@ Link	         [title](https://www.example.com)
 
 Image	         ![alt text](image.jpg)
 
-Blockquote	     > blockquote, use multiple angle brackets >> to nest quotes
+Blockquote	 > blockquote, use multiple angle brackets >> to nest quotes
 
 Horizontal rule  ---
 
