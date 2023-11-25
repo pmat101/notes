@@ -47,4 +47,4 @@ Checkbox         - [ ] unchecked item, - [x] checked item
 
 
 
-		 //	syntax highlighting, superscript, subscript and emojis are not supported by GitHub, use HTML syntax instead
+//	syntax highlighting, superscript, subscript and emojis are not supported by GitHub, use HTML syntax instead
