@@ -75,6 +75,8 @@
 - we can create instances of structures and assign them to variables → `var var_name = struct_name()`
 - we can access/assign property values of these instances using dot notation
 - Methods are functions, specific to an instance or type
-- **init()** method is used to customise an instance of a struct, it doesn't need a func keyword and uses *self* (similar to 'this') keyword to refer itself
+- **init()** method is used to customise an instance of a struct, it doesn't need a func keyword and gets called upon instance creation. It uses *self* (similar to 'this') keyword to refer itself
+- well.. actually we don't need an init method, Structures come with built-in *memberwise initialiser*
+- **mutating method** is how we change an instance's property using instance's method (a regular method won't be able to do that)
 
 ## ~Classes~
