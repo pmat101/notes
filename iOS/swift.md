@@ -69,8 +69,9 @@
 - functions can also accept a **variadic parameter** which can be interpreted as an array in the function block, eg. `func func_name (param_name: param_type...) {}`
 - an **inout** parameter has the power to change the value of the original arguments. Add an '&' symbol before the argument value when calling the function
 
-## ~Structures~
+## Structures
 - Structures are blueprints which contain properties and methods → *struct **N**ame { }*
+- properties can be assigned default values inside structures
 - we can create instances of structures and assign them to variables → `var var_name = struct_name()`
 - we can access/assign property values of these instances using dot notation
 - Methods are functions, specific to an instance or type
