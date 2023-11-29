@@ -12,6 +12,7 @@
 - String Interpolation → `"I am \(var_age) years old"`
 - *.remove(at: )*, *.removeFirst*, *.removeLast* methods can be used to remove specific characters from a String
 - **.split(separator: )** is used to break a String into an array
+- use built-in **type(of:)** function to check the data type of variable
 
 ## Conditionals & Logic
 - `Int.random(in: start...end)` method is used to generate a random number
@@ -75,8 +76,14 @@
 - we can create instances of structures and assign them to variables → `var var_name = struct_name()`
 - we can access/assign property values of these instances using dot notation
 - Methods are functions, specific to an instance or type
-- **init()** method is used to customise an instance of a struct, it doesn't need a func keyword and gets called upon instance creation. It uses *self* (similar to 'this') keyword to refer itself
+- **init()** method is used to customise an instance of a struct, it doesn't need a func keyword and gets called upon instance creation. It uses *self* (similar to 'this') keyword to refer given struct
 - well.. actually we don't need an init method, Structures come with built-in *memberwise initialiser*
 - **mutating method** is how we change an instance's property using instance's method (a regular method won't be able to do that)
 
-## ~Classes~
+## Classes
+- Classes are similar to Structs, only difference between them are
+   | Class | Structure |
+   | ----- | --------- |	
+   | they are *reference type* | they are *value types* (every time an instance is created it has its own unique values) |
+   | another benefit of Class is **Inheritance** which enables one class to inherit characteristics of another class while also creating its own  `class Subclass: Superclass { }` | - |
+- a subclass can **override** a property/method inherited from a superclass
