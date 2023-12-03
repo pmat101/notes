@@ -1,4 +1,4 @@
-> ### to get more details on a keyword, select it + press command + click on it. It'll open up the docs in a small dialogue box
+> ### to get more details on a keyword, select it + press command + click on it + go to "show quick help". It'll open up the docs in a small dialogue box
 
 ## Hello World
 - open XCode Playground to practice Swift language
@@ -6,13 +6,14 @@
 - common data types in Swift - *string*, *int*, *double*, *bool* and *array*
 
 ## Variables
-- variable declaration → `var name:datatype = value`  (type declaration lets compiler know how much memory to set aside for the variable) variables can't be reassigned value of a different type
+- variable declaration 👉 `var name:datatype = value`  (type declaration lets compiler know how much memory to set aside for the variable) variables can't be reassigned value of a different type
 - type inference makes compiler automatically deduce the data type of expression, we don't need to explicitly mention it
 - a constant, declared using **let** keyword cannot be reassigned any value
-- String Interpolation → `"I am \(var_age) years old"`
+- String Interpolation 👉 `"I am \(var_age) years old"`
 - *.remove(at: )*, *.removeFirst*, *.removeLast* methods can be used to remove specific characters from a String
 - **.split(separator: )** is used to break a String into an array
 - use built-in **type(of:)** function to check the data type of variable
+- `data_type(value)` is used for type conversion
 
 ## Conditionals & Logic
 - `Int.random(in: start...end)` method is used to generate a random number
@@ -32,14 +33,15 @@
 
 ## Arrays
 - arrays only store data of the same type
-- array initialization → `var array_name = [type]()` or `var array_name:[type] = [val1, val2, val3]`
+- array initialization 👉 `var array_name = [type]()` or `var array_name:[type] = [val1, val2, val3]`
 - **array_name.count** gives us the length of an array
 - to add a single item to an array use **.append()** method, to add multiple items do **arr_name += [val1, val2..]**
 - use *insert(val, at:index)* or *remove(at:index)* to add/delete an item at a particular index of an array
+- *.sort()* & *.reverse()* create a new array whereas *.sorted()* & *.reversed()* manipulate the given array
 
 ## Sets
 - a **set** is similar to an array except they're unordered and only contain unique elements
-- sets can be initialised as → `var set_name = Set<type>()` or `var set_name: Set = [val1, val2..]`
+- sets can be initialised as 👉 `var set_name = Set<type>()` or `var set_name: Set = [val1, val2..]`
 - use **insert(item)** to add element to a set, *.count*, *.isEmpty* methods to check number of items in a set and *.remove(value)* or *removeAll* to delete an item or everything from the set
 - *.contains()* checks if a given value is present in a set/range/string or not
 - *set1.intersection(set2)* creates a new set using common values between both, while *.union* combines both sets (or more) into one set with unique elements
@@ -49,10 +51,10 @@
 ## Dictionary
 - Dictionary is a collection of unordered data represented by key-value pairs where the keys are unique and pairs are of same datatype
 - to add a new key-value pair type `dictionary_name[key] = value`
-- to change any value → `dictionary_name[key] = new_value` or using *.updateValue* method
+- to change any value 👉 `dictionary_name[key] = new_value` or using *.updateValue* method
 - to remove a key-value pair, set it to *nil* or use *.removeValue* method, to empty the dictionary use *.removeAll* method
 - *.isEmpty* and *.count* methods work on all- Strings, arrays, sets, dictionaries
-- there are two ways of getting an **optional** value from a dictionary →
+- there are two ways of getting an **optional** value from a dictionary 👉
   - `if let var_name = dict_name[key] { // runs if optional value is not nil }` or
   - `var var_name = dict_name[key]**!**` // if we're sure the value exists
 > scope of if-let variable is only inside its block
@@ -61,7 +63,7 @@
 - use *.keys* and *.values* methods to get a list of keys/values of dictionary
 
 ## Functions
-- function declaration → `func name( param:datatype ) -> datatype{ return value }`
+- function declaration 👉 `func name( param:datatype ) -> datatype{ return value }`
 - functions can pass arguments using variable names, labels or just values
 - functions can have **argument labels** which can be used when calling the function, if argument label is replaced with an underscore only argument value needs to be provided
 - a function can return multiple values via an array (for same value types) or tuple (for multiple value types) and accessed using dot notation
@@ -71,9 +73,9 @@
 - an **inout** parameter has the power to change the value of the original arguments. Add an '&' symbol before the argument value when calling the function
 
 ## Structures
-- Structures are blueprints which contain properties and methods → *struct **N**ame { }*
+- Structures are blueprints which contain properties and methods 👉 *struct **N**ame { }*
 - properties can be assigned default values inside structures
-- we can create instances of structures and assign them to variables → `var var_name = struct_name()`
+- we can create instances of structures and assign them to variables 👉 `var var_name = struct_name()`
 - we can access/assign property values of these instances using dot notation
 - Methods are functions, specific to an instance or type
 - **init()** method is used to customise an instance of a struct, it doesn't need a func keyword and gets called upon instance creation. It uses *self* (similar to 'this') keyword to refer given struct
