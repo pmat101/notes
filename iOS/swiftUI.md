@@ -1,2 +1,2 @@
 
-(personal portfolio domain)[https://pranav-mathur.netlify.app/]
+[personal portfolio domain](https://pranav-mathur.netlify.app/) 
