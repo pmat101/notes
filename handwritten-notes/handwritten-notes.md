@@ -1,4 +1,4 @@
-                                                                                    Karm kar, fal ki chinta na kar..
+# कर्म कर, फल की चिंता न कर..
 
 |||||
 
