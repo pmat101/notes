@@ -21,3 +21,39 @@
 10. `<video>` tag attributes: src, width/height, controls, autoplay, loop, muted, poster (works as a thumbnail); `<audio>` tag attributes: src, controls, autoplay, loop, muted, preload; `<iframe>`
 
 11. Semantic tags: [header > nav] - [main > section > article > figure] - aside - footer
+
+12.
+
+13. HTML Entities; `<pre>`, `<blockquote>` tags
+
+14.
+
+15. inline, internal and external CSS
+
+16.
+
+17. tag selector, class selector, id selector, child selector (parent > child), descendant selector (parent child), universal selector (\*), pseudo selector (:visited/:link/:active/:hover/:first-child)
+
+18. `box-sizing: border-box` makes total dimensions of an element include _padding_ and _border_; **margin collapse** - 2 element on top of each other, the one with bigger margin will be applied
+
+19. Text related properties: font-family, font-style, font-weight, font-size, line-height, text-transform, text-decoration, text-decoration-thickness, text-indent, text-overflow (used with `overflow: hidden`), word-break, text-align
+
+20.
+
+21. CSS specificity: !important > inline style > id > class/attribute > tagName > universal
+
+22. margin: auto; px, vw, vh, em (relative to parent), rem (relative to root element), min-width, min-height, max-width, max-height, % (relative to parent)
+
+23. _inline_ elements can't have margin/padding at the top or change in width, for that we must make `display: inline-block`; `visibility: hidden` vs `display: none`
+
+24. `box-shadow: h-position v-position blur size color inset`; _text-shadow_; _outline_ (placed outside the box model)
+
+25. `list-style: none`; `list-style-position: inside`; `list-style-type: "🙉"`
+
+26. **Overflow**: _scroll_, _auto_, _hidden_, _clip_; `whitespace: no-wrap` (text stays in one line)
+
+27.
+
+28. **Position**: _static_, _relative_, _absolute_, _sticky_, _fixed_; `z-index: 1`
+
+29.
