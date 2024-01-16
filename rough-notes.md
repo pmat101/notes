@@ -21,5 +21,3 @@
 10. `<video>` tag attributes: src, width/height, controls, autoplay, loop, muted, poster (works as a thumbnail); `<audio>` tag attributes: src, controls, autoplay, loop, muted, preload; `<iframe>`
 
 11. Semantic tags: [header > nav] - [main > section > article > figure] - aside - footer
-
-12.
