@@ -1,5 +1,7 @@
 # कर्म कर, फल की चिंता न कर..
 
+## HTML, CSS n JavaScript
+
 1. 💀HTML, 👩🏻‍🦰CSS, 🧠JS; response codes: ✔︎200, ✘404, ✕500; `<video>` tag
 
 2. extensions: VSCode icons, Chai theme, prettier, live preview; FIVERR- buyer request
@@ -57,3 +59,23 @@
 28. **Position**: _static_, _relative_, _absolute_, _sticky_, _fixed_; `z-index: 1`
 
 29.
+
+30. **CSS Variabels**: `:root{ --blue: #00f; --p: 1em; }`, now to use these variables `h1{ color: var(--blue); padding: var(--p); }` _:root creates global variables_
+
+31. **Media Queries**: `@media only screen and (max-width: 500px)`
+
+32.
+33.
+
+34. **Float** makes an element move left/right and subsequent elements move underneath it except text, **Clear** prevents elements from moving underneath a floating element
+
+35. _more selectors_ 👉 :first-line, :nth-child(even), :before, :after, ::selection, ::first-letter, input::placeholde
+
+36.
+37.
+
+38. **Flex Container properties** 👉 `display: flex`, `justify-content: center/flex-start/flex-end/space-around/space-between/space-evenly`, `align-items: baseline/"`, `flex-direction: column/column-reverse/row/row-reverse`, `flex-wrap: wrap/wrap-reverse`, _align-content_ (used to align wrapped content), `gap`; **Flex Item properties** 👉 `order`, `align-self` (align a single item differently), _flex-grow or flex-shrink_ (allow items to increase/decrease in size at different speeds)
+
+39. **Grid Container properties** 👉 `display: grid`, _grid-template-columns_, _grid-template-rows_, _grid-template-areas_, _fr_ units are used to split items in fractions, {align-items/justify-items to place item within cell and align-content/justify-content to place grid within container}; **Grid Item properties** 👉 _grid-row_, _grid-column_ (specifies how much an item will span)
+
+40.
