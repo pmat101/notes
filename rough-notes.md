@@ -79,3 +79,10 @@
 39. **Grid Container properties** 👉 `display: grid`, _grid-template-columns_, _grid-template-rows_, _grid-template-areas_, _fr_ units are used to split items in fractions, {align-items/justify-items to place item within cell and align-content/justify-content to place grid within container}; **Grid Item properties** 👉 _grid-row_, _grid-column_ (specifies how much an item will span)
 
 40.
+41.
+
+42. **transform**: _rotate_, _scale_, _skew_, _translate_ (transform-origin changes the focal point)
+
+43.
+44.
+45.
