@@ -74,7 +74,7 @@
 36.
 37.
 
-38. **Flex Container properties** 👉 `display: flex`, `justify-content: center/flex-start/flex-end/space-around/space-between/space-evenly`, `align-items: baseline/"`, `flex-direction: column/column-reverse/row/row-reverse`, `flex-wrap: wrap/wrap-reverse`, _align-content_ (used to align wrapped content), `gap`; **Flex Item properties** 👉 `order`, `align-self` (align a single item differently), _flex-grow or flex-shrink_ (allow items to increase/decrease in size at different speeds)
+38. **Flex Container properties** 👉 `display: flex`, `justify-content: center/flex-start/flex-end/space-around/space-between/space-evenly`, `align-items: baseline/"`, `flex-direction: column/column-reverse/row/row-reverse`, `flex-wrap: wrap/wrap-reverse`, _align-content_ (used to align wrapped content), `gap`; **Flex Item properties** 👉 `order`, `align-self` (align a single item differently), _flex-grow / flex-shrink_ (allow items to increase/decrease in size at different speeds)
 
 39. **Grid Container properties** 👉 `display: grid`, _grid-template-columns_, _grid-template-rows_, _grid-template-areas_, _fr_ units are used to split items in fractions, {align-items/justify-items to place item within cell and align-content/justify-content to place grid within container}; **Grid Item properties** 👉 _grid-row_, _grid-column_ (specifies how much an item will span)
 
@@ -85,4 +85,11 @@
 
 43.
 44.
-45.
+
+45. **CSS Transition** consists of 4 properties 👉 _transition-property_ (which property should the transition apply to), _transition-duration_, _transition-timing-function_ (linear/ease-in/ease-out etc), _transition-delay_
+
+46. **CSS Animations** are similar to transition but can be applied to more than one property and is used for complex tasks; `@keyframes animeName {from{} to{}}`; `animation: animeName duration timing-function delay iteration-count direction fill-mode`
+
+47.
+
+48.
