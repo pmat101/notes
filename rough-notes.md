@@ -91,5 +91,14 @@
 46. **CSS Animations** are similar to transition but can be applied to more than one property and is used for complex tasks; `@keyframes animeName {from{} to{}}`; `animation: animeName duration timing-function delay iteration-count direction fill-mode`
 
 47.
-
 48.
+
+49. _object-fit_ property is used to fill an element (images mostly) inside its parent without distorting its aspect ratio; while _object-position_ specifies which parts of the element are shown and which are left out; use _background-image, background-position, background-repeat and background-clip_ properties when working with background images 
+
+50. _filter_ property is used to modify images in CSS
+
+51.
+
+52. **Figma**
+
+53. Netflix clone
